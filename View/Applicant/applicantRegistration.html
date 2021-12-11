@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>FundBD |Crowdfunding</title>
+  <link rel="shortcut icon" href="../../assets/icon.png">
+</head>
+<body>
+    <!-- .................................Header Start..................... --> 
+  
+    <fieldset>
+      <table align="center">
+        <tr>
+          <td>
+            <img src="../../assets/imgpsh_fullsize.png" alt="" srcset=""width="200" height="80">          </td>
+          
+        </tr>
+      </table>
+      <table align="center">
+        <tr>
+          <td>
+            <a href="../index.html">Home</a>
+            <a href="../loginType.html">Login</a>
+            <a href="../regType.html">Registration</a>
+            <a href="../aboutUS.html">About Us</a>
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+          <!-- ...............................Header Close....................... -->
+
+
+
+          <!-- .................................Main Content..................... -->
+    <fieldset>
+  <form method="post" action="../../controller/Applicant/applicantRegistrationCheak.php" >
+    <fieldset>
+    
+        <legend><b>Applicant Registration</b></legend><br>
+    
+      
+        <label>Name : </label>
+        <input type="text" id="name" name="name" ><br>
+        <hr><br>
+    
+        <label>Email :</label>
+        <input type="text" id="email" name="email" ><br>
+        <hr><br>
+    
+        <label>User Name : </label>
+        <input type="text" id="uname" name="uname" ><br>
+        <hr><br>
+    
+        <label>Password :  </label>
+        <input type="password" id="pword" name="pword" ><br>
+        <hr><br>
+    
+        <label>Confirm Password : </label>
+        <input type="password" id="conpword" name="conpword" ><br>
+        <hr><br>
+    
+        <label>Occupation :</label>
+        <input type="text" id="occupation" name="occupation" ><br>
+        <hr><br>
+
+        <fieldset>
+        <legend>Gender</legend>
+    
+        
+    
+        <input type="radio" name="gender" value="Male">
+        <label class="male">Male</label>
+    
+        <input type="radio" name="gender" value="Female">
+        <label class="female">Female</label>
+    
+        <input type="radio" name="gender" value="Other">
+        <label class="other">Other</label>
+    
+        </fieldset>
+    
+        <hr>
+    
+    
+    
+    <fieldset>
+    
+    <legend>Date Of Birth</legend>
+    
+    
+    
+    <input type="text" id="date" name="date" size="5"> /
+    <input type="text" id="month" name="month" size="5"> /
+    <input type="text" id="year" name="year" size="6"><i> (dd/mm/yyyy)</i>
+    
+    
+    </fieldset>
+    
+    
+    
+        <hr>
+		<fieldset>
+    
+        <legend>Yearly Income</legend>
+    
+        
+    
+        <input type="radio" name="yearlyIncome" value="Below 10000">
+        <label class="Below 10000">Below 10000</label>&nbsp;&nbsp;
+    
+        <input type="radio" name="yearlyIncome" value="10000 to 50000">
+        <label class="10000 to 50000">10000 to 50000</label>&nbsp;&nbsp;
+    
+        <input type="radio" name="yearlyIncome" value="More Than 50000">
+        <label class="More Than 100000">More Than 100000</label>&nbsp;&nbsp;
+    
+        </fieldset>
+    
+        <hr>
+    
+        <input type="submit" name="submit" id="submit" value="Submit">
+        
+        <br><br>
+    </fieldset>
+    </form>
+</fieldset>
+<fieldset>
+    <!-- .................................Main Content..................... -->
+
+    <!-- .................................Footer Start..................... -->
+    <fieldset>
+      <p align="center">Copyright	&#169;2021</p>
+    </fieldset>
+    <!-- .................................Footer Close..................... -->
+  
+
+</body>
+</html>
